@@ -1,0 +1,7 @@
+D:\Administrador\Documents\Visual Studio 2010\Projects\ProyectoDSD\SOAPServices\bin\SOAPServices.dll
+D:\Administrador\Documents\Visual Studio 2010\Projects\ProyectoDSD\SOAPServices\bin\SOAPServices.pdb
+D:\Administrador\Documents\Visual Studio 2010\Projects\ProyectoDSD\SOAPServices\bin\Iesi.Collections.dll
+D:\Administrador\Documents\Visual Studio 2010\Projects\ProyectoDSD\SOAPServices\bin\NHibernate.dll
+D:\Administrador\Documents\Visual Studio 2010\Projects\ProyectoDSD\SOAPServices\obj\Debug\ResolveAssemblyReference.cache
+D:\Administrador\Documents\Visual Studio 2010\Projects\ProyectoDSD\SOAPServices\obj\Debug\SOAPServices.dll
+D:\Administrador\Documents\Visual Studio 2010\Projects\ProyectoDSD\SOAPServices\obj\Debug\SOAPServices.pdb

@@ -1,0 +1,6 @@
+D:\Administrador\Documents\Visual Studio 2010\Projects\ProyectoDSD\ServicesTest\bin\Debug\ServicesTest.dll.config
+D:\Administrador\Documents\Visual Studio 2010\Projects\ProyectoDSD\ServicesTest\bin\Debug\ServicesTest.dll
+D:\Administrador\Documents\Visual Studio 2010\Projects\ProyectoDSD\ServicesTest\bin\Debug\ServicesTest.pdb
+D:\Administrador\Documents\Visual Studio 2010\Projects\ProyectoDSD\ServicesTest\obj\Debug\ResolveAssemblyReference.cache
+D:\Administrador\Documents\Visual Studio 2010\Projects\ProyectoDSD\ServicesTest\obj\Debug\ServicesTest.dll
+D:\Administrador\Documents\Visual Studio 2010\Projects\ProyectoDSD\ServicesTest\obj\Debug\ServicesTest.pdb
