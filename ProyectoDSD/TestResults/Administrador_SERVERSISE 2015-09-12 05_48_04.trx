@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="040eb296-7c8e-4ee8-91fa-d4ba1be15847" name="Administrador@SERVERSISE 2015-09-12 05:48:04" runUser="SERVERSISE\Administrador" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="f3298eb5-b0a1-4303-a41b-f939dc0c59d5">
+    <Description>Esta es la configuración de pruebas predeterminada para una ejecución de pruebas local.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Administrador_SERVERSISE 2015-09-12 05_48_04" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-09-12T05:48:04.9210941-05:00" queuing="2015-09-12T05:48:06.0811605-05:00" start="2015-09-12T05:48:06.1691655-05:00" finish="2015-09-12T05:49:07.2176573-05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="d:\administrador\documents\visual studio 2010\projects\proyectodsd\servicestest\bin\debug\servicestest.dll" id="b751a097-dd27-2c41-131d-0527336e262a">
+      <Execution id="18fca608-a50c-44cc-8a8c-f6aa3786f911" />
+      <TestMethod codeBase="D:/Administrador/Documents/Visual Studio 2010/Projects/ProyectoDSD/ServicesTest/bin/Debug/ServicesTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ServicesTest.UnitTest1, ServicesTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Resultados que no están en la lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos los resultados cargados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="b751a097-dd27-2c41-131d-0527336e262a" executionId="18fca608-a50c-44cc-8a8c-f6aa3786f911" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="18fca608-a50c-44cc-8a8c-f6aa3786f911" testId="b751a097-dd27-2c41-131d-0527336e262a" testName="TestMethod1" computerName="SERVERSISE" duration="00:01:00.5923641" startTime="2015-09-12T05:48:06.1871665-05:00" endTime="2015-09-12T05:49:07.1846554-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="18fca608-a50c-44cc-8a8c-f6aa3786f911">
+      <Output>
+        <ErrorInfo>
+          <Message>El método de prueba ServicesTest.UnitTest1.TestMethod1 produjo la excepción: 
+System.TimeoutException: El canal de solicitud agotó el tiempo de espera mientras esperaba una respuesta después de 00:00:58.8889365. Aumente el valor de tiempo de espera pasado a la llamada a Request, o bien aumente el valor de SendTimeout en el enlace. El tiempo asignado a esta operación puede haber sido una parte de un tiempo de espera mayor. ---&gt; System.TimeoutException: La solicitud HTTP a 'http://localhost:5584/Clientes.svc' superó el tiempo de espera asignado de 00:00:59.9170000. El tiempo asignado a esta operación puede haber sido una parte de un tiempo de espera mayor. ---&gt; System.Net.WebException: Se excedió el tiempo de espera de la operación</Message>
+          <StackTrace>    en System.Net.HttpWebRequest.GetResponse()
+   en System.ServiceModel.Channels.HttpChannelFactory.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+ --- Fin del seguimiento de la pila de la excepción interna ---
+    en System.ServiceModel.Channels.HttpChannelUtilities.ProcessGetResponseWebException(WebException webException, HttpWebRequest request, HttpAbortReason abortReason)
+   en System.ServiceModel.Channels.HttpChannelFactory.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   en System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+ --- Fin del seguimiento de la pila de la excepción interna ---
+ 
+Server stack trace: 
+   en System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   en System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   en System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   en System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   en System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+Exception rethrown at [0]: 
+   en System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   en System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp; msgData, Int32 type)
+   en ServicesTest.ClientesWS.IClientes.ObtenerCliente(Int32 codigo)
+   en ServicesTest.ClientesWS.ClientesClient.ObtenerCliente(Int32 codigo) en D:\Administrador\Documents\Visual Studio 2010\Projects\ProyectoDSD\ServicesTest\Service References\ClientesWS\Reference.cs:línea 145
+   en ServicesTest.UnitTest1.TestMethod1() en D:\Administrador\Documents\Visual Studio 2010\Projects\ProyectoDSD\ServicesTest\UnitTest1.cs:línea 21
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
